@@ -1,5 +1,9 @@
 2009-11-07 Pierre Wieser <pwieser@trychlos.org>
 
+	* configure.ac: Bump version number to 1.12.4
+
+	Releasing Nautilus-Actions 1.12.3
+
 	* NEWS: Udated.
 
 2009-10-29 Pierre Wieser <pwieser@trychlos.org>
