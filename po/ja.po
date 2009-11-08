@@ -1,821 +1,43 @@
 # nautilus-actions ja.po
-# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2005,2006,2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the 'nautilus-actions' package.
-# Takeshi AIHANA <aihana@gnome.gr.jp>, 2005, 2006.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2005,2006,2009.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-actions HEAD\n"
+"Project-Id-Version: nautilus-actions gnome-2-28\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-16 17:18+0200\n"
-"PO-Revision-Date: 2006-09-04 23:29+0900\n"
-"Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"POT-Creation-Date: 2009-11-08 10:29+0900\n"
+"PO-Revision-Date: 2009-11-08 10:29+0900\n"
+"Last-Translator: Takeshi AIHANA <takeshi.aihana@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../nact/nact.desktop.in.h:1
-msgid "Add items to the Nautilus popup menu"
-msgstr "アイテムを Nautilus のポップアップ・メニューに追加します"
-
-#: ../nact/nact.desktop.in.h:2
-msgid "Nautilus Actions Configuration"
-msgstr "Nautilus アクションの設定"
-
-#: ../nact/nautilus-actions-config.glade.h:1
-#, fuzzy
-msgid "(C) 2005-2007 Frederic Ruaudel <grumz@grumz.net>"
-msgstr "(C) 2005 Frederic Ruaudel <grumz@grumz.net>"
-
-#: ../nact/nautilus-actions-config.glade.h:3
-#, no-c-format
-msgid "<b>%%</b>: a percent sign"
-msgstr "<b>%%</b>: パーセントの記号そのもの"
-
-#: ../nact/nautilus-actions-config.glade.h:5
-#, no-c-format
-msgid ""
-"<b>%M</b>: space-separated list of the selected file(s)/folder(s) with their "
-"full paths"
-msgstr ""
-"<b>%M</b>: 選択したファイルやフォルダの絶対パス名を空白で区切って並べたもの"
-
-#: ../nact/nautilus-actions-config.glade.h:7
-#, fuzzy, no-c-format
-msgid "<b>%U</b>: username of the GnomeVFS URI"
-msgstr "<b>%U</b>: GnomeVFS の URI に指定したユーザ名"
-
-#: ../nact/nautilus-actions-config.glade.h:9
-#, no-c-format
-msgid "<b>%d</b>: base folder of the selected file(s)"
-msgstr "<b>%d</b>: 選択したファイルを格納したフォルダの名前"
-
-#: ../nact/nautilus-actions-config.glade.h:11
-#, no-c-format
-msgid ""
-"<b>%f</b>: the name of the selected file or the 1st one if many are selected"
-msgstr ""
-"<b>%f</b>: 選択したファイル、または複数選択した場合は一番最初のファイルの名前"
-
-#: ../nact/nautilus-actions-config.glade.h:13
-#, fuzzy, no-c-format
-msgid "<b>%h</b>: hostname of the GnomeVFS URI"
-msgstr "<b>%h</b>: GnomeVFS の URI に指定したホスト名"
-
-#: ../nact/nautilus-actions-config.glade.h:15
-#, no-c-format
-msgid ""
-"<b>%m</b>: space-separated list of the basenames of the selected\n"
-"file(s)/folder(s)"
-msgstr "<b>%m</b>: 選択したファイルやフォルダの名前を空白で区切って並べたもの"
-
-#: ../nact/nautilus-actions-config.glade.h:18
-#, fuzzy, no-c-format
-msgid "<b>%s</b>: scheme of the GnomeVFS URI"
-msgstr "<b>%s</b>: GnomeVFS URI のスキーム"
-
-#: ../nact/nautilus-actions-config.glade.h:20
-#, fuzzy, no-c-format
-msgid "<b>%u</b>: GnomeVFS URI"
-msgstr "<b>%u</b>: GnomeVFS 形式の URI"
-
-#: ../nact/nautilus-actions-config.glade.h:21
-msgid "<b>Action</b>"
-msgstr "<b>アクション</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:22
-msgid "<b>Appears if file matches</b>"
-msgstr "<b>ファイル名が一致したら表示する</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:23
-msgid "<b>Appears if scheme is in this list</b>"
-msgstr "<b>スキームがこの一覧の中に存在していたら表示する</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:24
-msgid "<b>Appears if selection contains</b>"
-msgstr "<b>選択したアイテムが次に属していたら表示する</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:25
-msgid "<b>Nautilus Menu Item</b>"
-msgstr "<b>Nautilus のメニュー・アイテム</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:26
-msgid "<b>Profiles</b>"
-msgstr ""
-
-#: ../nact/nautilus-actions-config.glade.h:28
-#, no-c-format
-msgid "<i><b><span size=\"small\">e.g., %s</span></b></i>"
-msgstr "<i><b><span size=\"small\">プレビュー: %s</span></b></i>"
-
-#: ../nact/nautilus-actions-config.glade.h:29
-msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr "<span size=\"larger\"><b>引数の凡例</b></span>"
-
-#: ../nact/nautilus-actions-config.glade.h:30
-msgid ""
-"<span weight=\"bold\" size=\"larger\">place primary text here</span>\n"
-"\n"
-"place secondary text here"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">ココにタイトルを記述して下さい</span>\n"
-"\n"
-"ココにエラーの詳細を記述して下さい"
-
-#: ../nact/nautilus-actions-config.glade.h:33
-msgid ""
-"A string with wildcards (? or *) that will be used to match the filenames. "
-"You can set several filename patterns by separating them with a semi-colon "
-"(;)."
-msgstr ""
-"複数のファイルを選択する際に適用するワイルドカード ('?' や '*') を付けた文字"
-"列です (この文字列をセミコロン ';' で区切って複数個指定すると、いろいろなパ"
-"ターンのファイルを選択できます)"
-
-#: ../nact/nautilus-actions-config.glade.h:34
-msgid ""
-"A string with wildcards (? or *) that will be used to match the mimetypes of "
-"files. You can set several mimetype patterns by separating them with a semi-"
-"colon (;)."
-msgstr ""
-"複数の MIME 型を選択する際に適用するワイルドカード ('?' や '*') を付けた文字"
-"列です (この文字列をセミコロン ';' で区切って複数個指定すると、いろいろなパ"
-"ターンの MIME 型を選択できます)"
-
-#: ../nact/nautilus-actions-config.glade.h:35
-#, fuzzy
-msgid "Action"
-msgstr "<b>アクション</b>"
-
-#: ../nact/nautilus-actions-config.glade.h:36
-msgid "Advanced Conditions"
-msgstr "追加の条件"
-
-#: ../nact/nautilus-actions-config.glade.h:37
-msgid "Appears if selection has multiple files or folders"
-msgstr "選択したアイテムが複数のファイルまたはフォルダの場合は表示する"
-
-#: ../nact/nautilus-actions-config.glade.h:38
-msgid "Both"
-msgstr "両方"
-
-#: ../nact/nautilus-actions-config.glade.h:39
-msgid "Click to add a new scheme."
-msgstr "新しいスキーマを追加します"
-
-#: ../nact/nautilus-actions-config.glade.h:40
-msgid "Click to choose a command from the file chooser dialog."
-msgstr "ファイル選択ダイアログからコマンドを選択します"
-
-#: ../nact/nautilus-actions-config.glade.h:41
-msgid ""
-"Click to choose a custom icon from a file instead of a predefined icon from "
-"the drop-down list."
-msgstr ""
-"左にあるドロップ・ダウン形式のリストから予約済みアイコンを選択しないで、特定"
-"のアイコン・ファイルを直接選択します"
-
-#: ../nact/nautilus-actions-config.glade.h:42
-msgid "Click to remove the selected scheme."
-msgstr "選択したスキームを削除します"
-
-#: ../nact/nautilus-actions-config.glade.h:43
-#, fuzzy
-msgid ""
-"Click to toggle the display of the list of special tokens you can use in the "
-"parameter field."
-msgstr "引数の並びに指定できる特別な変数の一覧を表示します"
-
-#: ../nact/nautilus-actions-config.glade.h:44
-msgid "Conditions"
-msgstr "条件"
-
-#: ../nact/nautilus-actions-config.glade.h:45
-msgid "Create a copy of the selected action."
-msgstr "選択したアクションの複製を生成します"
-
-#: ../nact/nautilus-actions-config.glade.h:46
-msgid ""
-"Delete the action without any confirmation nor the possibility to restore it."
-msgstr "確認なしで、アクションを完全に削除します"
-
-#: ../nact/nautilus-actions-config.glade.h:47
-msgid "Duplicate"
-msgstr ""
-
-#: ../nact/nautilus-actions-config.glade.h:48
-msgid "Export existing configs"
-msgstr "既存の設定を書き出す"
-
-#: ../nact/nautilus-actions-config.glade.h:49
-msgid "File to Import:"
-msgstr "取り込むファイル:"
-
-#: ../nact/nautilus-actions-config.glade.h:50
-msgid "Filenames:"
-msgstr "ファイル名:"
-
-#: ../nact/nautilus-actions-config.glade.h:51
-msgid "Icon:"
-msgstr "アイコン:"
-
-#: ../nact/nautilus-actions-config.glade.h:52
-msgid ""
-"If selected, the filename patterns will be matched case sensitive (eg, *.jpg "
-"will not match photo.JPG)"
-msgstr ""
-"有効にすると、大/小文字を区別しながらファイル名に一致するものを検索します "
-"(例: *.jpg は photo.JPG にはマッチしません)"
-
-#: ../nact/nautilus-actions-config.glade.h:53
-msgid "Import new configurations"
-msgstr "新しい設定を取り込む"
-
-#: ../nact/nautilus-actions-config.glade.h:54
-msgid "Import/Export"
-msgstr "インポート/エキスポート"
-
-#: ../nact/nautilus-actions-config.glade.h:55
-msgid "Import/Export Settings"
-msgstr "インポート/エキスポートの設定"
-
-#: ../nact/nautilus-actions-config.glade.h:56
-msgid "Label of the menu item in the Nautilus popup menu."
-msgstr "Nautilus のポップアップ・メニューに表示するアイテムの名前です"
-
-#: ../nact/nautilus-actions-config.glade.h:57
-msgid "Label:"
-msgstr "ラベル:"
-
-#: ../nact/nautilus-actions-config.glade.h:58
-msgid ""
-"Manage importation of external action configurations and exportation of "
-"existing actions."
-msgstr "新しいアクションの設定を取り込んだり、既存の設定を書き出します"
-
-#: ../nact/nautilus-actions-config.glade.h:59
-msgid "Match case"
-msgstr "大/小文字を区別する"
-
-#: ../nact/nautilus-actions-config.glade.h:60
-msgid "Mimetypes:"
-msgstr "MIME 型:"
-
-#: ../nact/nautilus-actions-config.glade.h:61
-msgid "Nautilus Action Editor"
-msgstr "Nautilus アクション・エディタ"
-
-#: ../nact/nautilus-actions-config.glade.h:62
-#, fuzzy
-msgid "Nautilus Action Profile Editor"
-msgstr "Nautilus アクション・エディタ"
-
-#: ../nact/nautilus-actions-config.glade.h:63
-msgid "Nautilus Actions"
-msgstr "Nautilus のアクション"
-
-#: ../nact/nautilus-actions-config.glade.h:64
-#, fuzzy
-msgid ""
-"Nautilus Actions Configuration Tool\n"
-"Application to configure Nautilus Action extension"
-msgstr ""
-"Nautilus のアクション設定ツール\n"
-"Nautilus のアクションを拡張するアプリケーションです。"
-
-#: ../nact/nautilus-actions-config.glade.h:66
-msgid "Only files"
-msgstr "ファイルだけ"
-
-#: ../nact/nautilus-actions-config.glade.h:67
-msgid "Only folders"
-msgstr "フォルダだけ"
-
-#: ../nact/nautilus-actions-config.glade.h:68
-msgid ""
-"Parameters that will be sent to the program. Click on the 'Legend' button to "
-"see the different replacement tokens."
-msgstr ""
-"実行形式に引き渡す引数の並びです ([凡例] ボタンをクリックして変数の一覧も参照"
-"してみて下さい)"
-
-#: ../nact/nautilus-actions-config.glade.h:69
-msgid "Parameters:"
-msgstr "引数の並び:"
-
-#: ../nact/nautilus-actions-config.glade.h:70
-msgid "Path:"
-msgstr "パス名:"
-
-#: ../nact/nautilus-actions-config.glade.h:71
-msgid "Project Website"
-msgstr "プロジェクトのウェブサイト"
-
-#: ../nact/nautilus-actions-config.glade.h:72
-msgid "Save in Folder:"
-msgstr "保存するフォルダ:"
-
-#: ../nact/nautilus-actions-config.glade.h:73
-msgid ""
-"Select the configurations you want to export. Use Shift or Ctrl key to "
-"select more than one."
-msgstr ""
-"ファイルに書き出す設定を選択して下さい (複数のファイルを選択する時は [Shift]/"
-"[Ctrl] キーを使って下さい)"
-
-#: ../nact/nautilus-actions-config.glade.h:74
-msgid "Select the configurations you want to export:"
-msgstr "書き出す設定を選択して下さい:"
-
-#: ../nact/nautilus-actions-config.glade.h:75
-msgid "Select the file you want to import."
-msgstr "取り込むファイルを選択して下さい"
-
-#: ../nact/nautilus-actions-config.glade.h:76
-msgid ""
-"Select the folder you want your config to be saved in. This folder must "
-"exist."
-msgstr ""
-"設定を保存するフォルダを選択して下さい (保存する前にフォルダの存在を確認して"
-"おいて下さい)"
-
-#: ../nact/nautilus-actions-config.glade.h:77
-msgid ""
-"Select the kind of files where you want your action to appear. If you don't "
-"know what to choose, try selecting just 'file' which is the most common "
-"choice. You can add a new scheme by clicking on the '+' button."
-msgstr ""
-"アクションを実行する時に対象となるファイルの種類を選択して下さい (もし何を選"
-"択すればよいか分からない場合は、全てのアクションに最も共通するファイルを選択"
-"してみて下さい。ちなみに [+] ボタンで新しいスキームを追加できます)"
-
-#. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../nact/nautilus-actions-config.glade.h:79
-msgid "The GNOME Translation Project <gnome-i18n@gnome.org>"
-msgstr ""
-
-#: ../nact/nautilus-actions-config.glade.h:80
-msgid ""
-"The command that will be launched by selecting the action in Nautilus popup "
-"menu."
-msgstr ""
-"このアクションを Nautilus のポップアップ・メニューから選択した時に実行するコ"
-"マンドです"
-
-#: ../nact/nautilus-actions-config.glade.h:81
-msgid "This software is licensed under the GNU Genaral Public License (GPL)"
-msgstr "このソフトウェアのライセンスは GNU 一般公有使用許諾契約書 (GPL) です"
-
-#: ../nact/nautilus-actions-config.glade.h:82
-msgid "Tooltip of the menu item that will appear in the Nautilus statusbar."
-msgstr ""
-"Nautilus のステータスバーに表示する、メニュー・アイテムのツールチップです"
-
-#: ../nact/nautilus-actions-config.glade.h:83
-msgid "Tooltip:"
-msgstr "ツールチップ:"
-
-#: ../nact/nautilus-actions-config.glade.h:84
-msgid "_Browse"
-msgstr "参照(_B)"
-
-#: ../nact/nautilus-actions-config.glade.h:85
-msgid "_Legend"
-msgstr ""
-
-#. i18n notes: will be displayed in a dialog
-#: ../nact/nact.c:163
-#, fuzzy, c-format
-msgid "Can't duplicate action '%s'!"
-msgstr "アクション '%s' をコピーを生成できません！"
-
-#. create columns on the tree view
-#: ../nact/nact.c:277 ../nact/nact-import-export.c:162
-msgid "Icon"
-msgstr "アイコン"
-
-#: ../nact/nact.c:282 ../nact/nact-import-export.c:167
-msgid "Label"
-msgstr "ラベル"
-
-#: ../nact/nact.c:303 ../nact/nact-editor.c:628
-#: ../nact/nact-import-export.c:312 ../nact/nact-profile-editor.c:495
-msgid "Could not load interface for Nautilus Actions Config Tool"
-msgstr "Nautilus アクション設定ツールのインタフェースを読み込めませんでした"
-
-#. i18n notes: example strings for the command preview
-#: ../nact/nact-utils.c:185
-msgid "/path/to"
-msgstr "/path/to"
-
-#: ../nact/nact-utils.c:186 ../nact/nact-utils.c:188
-msgid "file1.txt"
-msgstr "file1.txt"
-
-#: ../nact/nact-utils.c:186
-msgid "file2.txt"
-msgstr "file2.txt"
-
-#: ../nact/nact-utils.c:187 ../nact/nact-utils.c:188
-msgid "folder1"
-msgstr "folder1"
-
-#: ../nact/nact-utils.c:187
-msgid "folder2"
-msgstr "folder2"
-
-#: ../nact/nact-utils.c:190
-msgid "test.example.net"
-msgstr "test.example.net"
-
-#: ../nact/nact-utils.c:191
-msgid "file.txt"
-msgstr "file.txt"
-
-#: ../nact/nact-utils.c:192
-msgid "folder"
-msgstr "folder"
-
-#. i18n notes: when no icon is selected in the drop-down list
-#: ../nact/nact-editor.c:168
-msgid "None"
-msgstr "アイコンなし"
-
-#. i18n notes: will be displayed in a dialog
-#: ../nact/nact-editor.c:449
-#, fuzzy, c-format
-msgid "Can't copy action's profile '%s'!"
-msgstr "ファイル '%s' を解析できません！"
-
-#. i18n notes: will be displayed in a dialog
-#: ../nact/nact-editor.c:474
-#, fuzzy, c-format
-msgid "Can't paste action's profile '%s'!"
-msgstr "ファイル '%s' を解析できません！"
-
-#. i18n notes: this is the default name of a copied profile
-#: ../nact/nact-editor.c:479
-#, c-format
-msgid "%s Copy"
-msgstr ""
-
-#. i18n notes: will be displayed in a dialog
-#: ../nact/nact-editor.c:539
-#, fuzzy, c-format
-msgid "Can't delete action's profile '%s'!"
-msgstr "アクション '%s' をコピーを生成できません！"
-
-#: ../nact/nact-editor.c:591
-msgid "Profile Name"
-msgstr ""
-
-#: ../nact/nact-editor.c:644
-msgid "Icon of the menu item in the Nautilus popup menu"
-msgstr "Nautilus のポップアップ・メニューに表示するアイコンです"
-
-#: ../nact/nact-editor.c:666
-msgid "Add a New Action"
-msgstr "新しいアクションの追加"
-
-#: ../nact/nact-editor.c:670
-#, c-format
-msgid "Edit Action \"%s\""
-msgstr "アクション \"%s\" の編集"
-
-#: ../nact/nact-import-export.c:205
-#, fuzzy, c-format
-msgid "Can't parse file '%s' as GConf schema description file!"
-msgstr "'%s' を GConf スキーマの記述ファイルとして解析できません！"
-
-#. i18n notes: %s is the label of the action (eg, 'Mount ISO')
-#: ../nact/nact-import-export.c:226
-#, fuzzy, c-format
-msgid "Action '%s' importation failed!"
-msgstr "アクション '%s' のインポートに失敗しました！"
-
-#. initialize the default schemes
-#. i18n notes : description of 'file' scheme
-#: ../nact/nact-prefs.c:164
-#, c-format
-msgid "%sLocal Files"
-msgstr "%sローカルのファイル"
-
-#. i18n notes : description of 'sftp' scheme
-#: ../nact/nact-prefs.c:166
-#, c-format
-msgid "%sSSH Files"
-msgstr "%sSSH のファイル"
-
-#. i18n notes : description of 'smb' scheme
-#: ../nact/nact-prefs.c:168
-#, c-format
-msgid "%sWindows Files"
-msgstr "%sWindows のファイル"
-
-#. i18n notes : description of 'ftp' scheme
-#: ../nact/nact-prefs.c:170
-#, c-format
-msgid "%sFTP Files"
-msgstr "%sFTP のファイル"
-
-#. i18n notes : description of 'dav' scheme
-#: ../nact/nact-prefs.c:172
-#, c-format
-msgid "%sWebdav Files"
-msgstr "%sWebDAV のファイル"
-
-#. i18n notes : scheme name set for a new entry in the scheme list
-#: ../nact/nact-profile-editor.c:243
-msgid "new-scheme"
-msgstr "new-scheme"
-
-#: ../nact/nact-profile-editor.c:244
-msgid "New Scheme Description"
-msgstr "(新しいスキームの説明を入力して下さい)"
-
-#: ../nact/nact-profile-editor.c:329
-msgid "Scheme"
-msgstr "スキーム"
-
-#: ../nact/nact-profile-editor.c:341
-msgid "Description"
-msgstr "説明"
-
-#: ../nact/nact-profile-editor.c:532
-#, fuzzy
-msgid "Add a New Profile"
-msgstr "新しいアクションの追加"
-
-#: ../nact/nact-profile-editor.c:536
-#, fuzzy, c-format
-msgid "Edit Profile \"%s\""
-msgstr "アクション \"%s\" の編集"
-
-#. GConf description strings :
-#: ../utils/nautilus-actions-new-config.c:49
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:72
-msgid "The label of the menu item"
-msgstr "メニュー・アイテムのラベル"
-
-#: ../utils/nautilus-actions-new-config.c:49
-msgid "LABEL"
-msgstr "LABEL"
-
-#: ../utils/nautilus-actions-new-config.c:50
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:74
-msgid "The tooltip of the menu item"
-msgstr "メニュー・アイテムのツールチップ"
-
-#: ../utils/nautilus-actions-new-config.c:50
-msgid "TOOLTIP"
-msgstr "TOOLTIP"
-
-#: ../utils/nautilus-actions-new-config.c:51
-msgid "The icon of the menu item (filename or GTK stock ID)"
-msgstr ""
-"メニュー・アイテムのアイコンを指定する (ファイル名または GTK+ のストック ID)"
-
-#: ../utils/nautilus-actions-new-config.c:51
-msgid "ICON"
-msgstr "ICON"
-
-#: ../utils/nautilus-actions-new-config.c:52
-#: ../utils/nautilus-actions-new-config.c:55
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:80
-msgid "The path of the command"
-msgstr "コマンドのパス名"
-
-#: ../utils/nautilus-actions-new-config.c:52
-#: ../utils/nautilus-actions-new-config.c:55
-#: ../utils/nautilus-actions-new-config.c:61
-msgid "PATH"
-msgstr "PATH"
-
-#: ../utils/nautilus-actions-new-config.c:53
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:82
-msgid "The parameters of the command"
-msgstr "コマンドの引数並び"
-
-#: ../utils/nautilus-actions-new-config.c:53
-msgid "PARAMS"
-msgstr "PARAMS"
-
-#: ../utils/nautilus-actions-new-config.c:54
-msgid ""
-"A pattern to match selected files against. May include wildcards (* or ?) "
-"(you must set one option for each pattern you need)"
-msgstr ""
-"ファイルを選択する際に適用するパターンで、ワイルドカード ('?','*') も使用でき"
-"ます (必要であれば、各パターンに対してそれぞれオプションを指定して下さい)"
-
-#: ../utils/nautilus-actions-new-config.c:54
-#: ../utils/nautilus-actions-new-config.c:56
-msgid "EXPR"
-msgstr "EXPR"
-
-#: ../utils/nautilus-actions-new-config.c:56
-msgid ""
-"A pattern to match selected files' mimetype against. May include wildcards "
-"(* or ?) (you must set one option for each pattern you need)"
-msgstr ""
-"MIME 型を選択する際に適用するパターンで、ワイルドカード ('?','*') も使用でき"
-"ます (必要であれば、各パターンに対してそれぞれオプションを指定して下さい)"
-
-#: ../utils/nautilus-actions-new-config.c:57
-msgid "Set it if the selection can contain files"
-msgstr "ファイルを選択できる場合にセットする"
-
-#: ../utils/nautilus-actions-new-config.c:58
-msgid "Set it if the selection can contain folders"
-msgstr "フォルダを選択できる場合にセットする"
-
-#: ../utils/nautilus-actions-new-config.c:59
-msgid "Set it if the selection can have several items"
-msgstr "複数のオブジェクトを選択できる場合にセットする"
-
-#: ../utils/nautilus-actions-new-config.c:60
-msgid ""
-"A GnomeVFS scheme where the selected files should be located (you must set "
-"it for each scheme you need)"
-msgstr "選択したオブジェクトが格納されている GnomeVFS スキームを指定する"
-
-#: ../utils/nautilus-actions-new-config.c:60
-msgid "SCHEME"
-msgstr "SCHEME"
-
-#: ../utils/nautilus-actions-new-config.c:61
-msgid ""
-"The path of the file where to save the new GConf schema definition file "
-"[default: /tmp/config_UUID.schemas]"
-msgstr ""
-"新しい GConf スキーマの定義ファイルを保存する場所を指定する [default: /tmp/"
-"config_UUID.schemas]"
-
-#: ../utils/nautilus-actions-new-config.c:100
-#, c-format
-msgid ""
-"Syntax error:\n"
-"\t- %s\n"
-"Try %s --help\n"
-msgstr ""
-"オプションのエラー:\n"
-"\t- %s\n"
-"%s --help で確認して下さい\n"
-
-#: ../utils/nautilus-actions-new-config.c:152
-#, c-format
-msgid "Creating %s..."
-msgstr "%s の生成中..."
-
-#: ../utils/nautilus-actions-new-config.c:171
-#, c-format
-msgid " Failed: Can't create %s: %s\n"
-msgstr " エラー: %s を生成できませんでした: %s\n"
-
-#: ../utils/nautilus-actions-new-config.c:180
-#, c-format
-msgid "  OK, saved in %s\n"
-msgstr "  完了しました (%s に保存しました)\n"
-
-#: ../utils/nautilus-actions-new-config.c:185
-#, c-format
-msgid " Failed: %s\n"
-msgstr "%s に失敗しました\n"
-
-#: ../utils/nautilus-actions-tools-utils.c:48
-#, c-format
-msgid "Can't write data in file %s\n"
-msgstr "ファイル %s の中にデータを書き込めませんでした\n"
-
-#: ../utils/nautilus-actions-tools-utils.c:54
-#, c-format
-msgid "Can't open file %s for writing\n"
-msgstr "ファイル %s を書き込みモードで開けませんでした\n"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:73
-msgid ""
-"The label of the menu item that will appear in the Nautilus popup menu when "
-"the selection matches the appearance condition settings"
-msgstr ""
-"選択したオブジェクトがメニュー・アイテムを表示する条件を満足している時に、"
-"Nautilus のポップアップ・メニューに表示するメニュー・アイテムのラベルです。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:75
-msgid ""
-"The tooltip of the menu item that will appear in the Nautilus statusbar when "
-"the user points to the Nautilus popup menu item with his/her mouse"
-msgstr ""
-"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムの上にマウ"
-"ス・カーソルを置いた時に、Nautilus のステータス\n"
-"バーに表示するメニュー・アイテムのツールチップです。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:76
-msgid "The icon of the menu item"
-msgstr "メニュー・アイテムのアイコン"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:77
-msgid ""
-"The icon of the menu item that will appear next to the label in the Nautilus "
-"popup menu when the selection matches the appearance conditions settings"
-msgstr ""
-"選択したオブジェクトがメニュー・アイテムを表示する条件を満足している時に、"
-"Nautilus のポップアップ・メニューのラベルの隣に表示するメニュー・アイテムのア"
-"イコンです。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:78
-msgid "A description name of the profile"
-msgstr ""
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:79
-msgid ""
-"The field is here to give the user a human readable name for a profile in "
-"the Nact interface. If not set there will be a default auto generated string "
-"set by default"
-msgstr ""
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:81
-msgid ""
-"The path of the command to start when the user select the menu item in the "
-"Nautilus popup menu"
-msgstr ""
-"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムを選択した"
-"時に起動するプログラムのパス名です。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:83
-#, fuzzy
-msgid ""
-"The parameters of the command to start when the user selects the menu item "
-"in the Nautilus popup menu.\n"
-"\n"
-"The parameters can contain some special tokens which are replaced by "
-"Nautilus information before starting the command:\n"
-"\n"
-"%d: base folder of the selected file(s)\n"
-"%f: the name of the selected file or the first one if many are selected\n"
-"%m: space-separated list of the basenames of the selected file(s)/folder(s)\n"
-"%M: space-separated list of the selected file(s)/folder(s), with their full "
-"paths\n"
-"%u: GnomeVFS URI\n"
-"%s: scheme of the GnomeVFS URI\n"
-"%h: hostname of the GnomeVFS URI\n"
-"%U: username of the GnomeVFS URI\n"
-"%%: a percent sign"
-msgstr ""
-"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムを選択した"
-"時に起動するプログラムの引数です。\n"
-"\n"
-"この引数には特別な変数をいくつか指定することが可能で、コマンドを実行する前に "
-"Nautilus の情報に置き換えられます:\n"
-"\n"
-"%d: 選択した複数のファイルを格納するフォルダの名前\n"
-"%f: 選択した一個のファイル、または複数のファイルを選択した場合は一番最初の"
-"ファイル\n"
-"%m: 選択したファイルやフォルダのベース名を空白で区切って並べた文字列\n"
-"%M: 選択したファイルやフォルダの絶対パス名を空白で区切って並べた文字列\n"
-"%u: GnomeVFS URI\n"
-"%s: GnomeVFS URI のスキーム\n"
-"%h: GnomeVFS URI のホスト名\n"
-"%U: GnomeVFS URI に指定したユーザ名\n"
-"%%: パラメータ記号そのもの"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:84
-msgid "The list of pattern to match the selected file(s)/folder(s)"
-msgstr "選択したファイル/フォルダに一致させるパターンの並び"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:85
-msgid ""
-"A list of strings with joker '*' or '?' to match the name of the selected "
-"file(s)/folder(s). Each selected items must match at least one of the "
-"filename patterns for the action to appear"
-msgstr ""
-"複数のファイルやフォルダを選択する際に適用するワイルドカード ('?' や '*') を"
-"付けた文字列の並びです。選択したアイテムは、アクションを表示するために少なく"
-"とも一つのパターンに一致していなければなりません"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:86
+#: ../data/nautilus-actions.schemas.in.h:1 ../src/common/na-xml-names.h:138
 msgid ""
 "'true' if the filename patterns have to be case sensitive, 'false' otherwise"
-msgstr ""
-"大/小文字を区別してファイル名のパターンを適用する場合は 'true'、それ以外は "
-"'false'"
+msgstr "大/小文字を区別してファイル名のパターンを適用するかどうか"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:87
-msgid ""
-"If you need to match a filename in a case-sensitive manner, set this key to "
-"'true'. If you also want, for example '*.jpg' to match 'photo.JPG', set "
-"'false'"
-msgstr ""
-"大/小文字を区別してファイル名を選択する場合は、このキーを TRUE にして下さい。"
-"逆に、'*.jpg' というパターンで 'photo.JPG' を選択できるようにする場合は "
-"FALSE にして下さい。"
+#: ../data/nautilus-actions.schemas.in.h:2 ../src/common/na-xml-names.h:146
+msgid "'true' if the selection can have files, 'false' otherwise"
+msgstr "選択できるオブジェクトがファイルかどうか"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:88
-msgid "The list of patterns to match the mimetypes of the selected file(s)"
-msgstr "ファイルの MIME 型を選択する際に適用するパターンの並び"
+#: ../data/nautilus-actions.schemas.in.h:3 ../src/common/na-xml-names.h:153
+msgid "'true' if the selection can have folders, 'false' otherwise"
+msgstr "選択できるオブジェクトがフォルダかどうか"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:89
+#: ../data/nautilus-actions.schemas.in.h:4 ../src/common/na-xml-names.h:160
+msgid "'true' if the selection can have several items, 'false' otherwise"
+msgstr "複数のアイテムを選択できるかどうか"
+
+#: ../data/nautilus-actions.schemas.in.h:5 ../src/common/na-xml-names.h:115
+msgid "A description name of the profile"
+msgstr "プロファイルを説明する名前"
+
+#: ../data/nautilus-actions.schemas.in.h:6 ../src/common/na-xml-names.h:143
 msgid ""
 "A list of strings with joker '*' or '?' to match the mimetypes of the "
 "selected file(s). Each selected items must match at least one of the "
@@ -825,18 +47,315 @@ msgstr ""
 "付けた文字列の並びです。選択したアイテムは、アクションを表示するために少なく"
 "とも一つのパターンに一致させなければなりません。"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:90
-#, fuzzy
+#: ../data/nautilus-actions.schemas.in.h:7 ../src/common/na-xml-names.h:135
 msgid ""
-"The valid combinations are:\n"
-"\n"
-"isfile=TRUE and isdir=FALSE: the selection may hold only files\n"
-"isfile=FALSE and isdir=TRUE: the selection may hold only folders\n"
-"isfile=TRUE and isdir=TRUE: the selection may hold both files and folders\n"
-"isfile=FALSE and isdir=FALSE: this is an invalid combination (your "
-"configuration will never appear)"
+"A list of strings with joker '*' or '?' to match the name of the selected "
+"file(s)/folder(s). Each selected items must match at least one of the "
+"filename patterns for the action to appear"
 msgstr ""
-"ここで妥当は組み合わせは:\n"
+"複数のファイルやフォルダを選択する際に適用するワイルドカード ('?' や '*') を"
+"付けた文字列の並びです。選択したアイテムは、アクションを表示するために少なく"
+"とも一つのパターンに一致していなければなりません"
+
+#: ../data/nautilus-actions.schemas.in.h:8
+msgid "Add an 'About' item in the Nautilus context menu"
+msgstr ""
+"Nautilus のコンテキスト・メニューに \"情報\" メニューの項目を追加するかどうか"
+
+#. i18n: default label for a newly created profile
+#: ../data/nautilus-actions.schemas.in.h:9 ../src/common/na-action.h:55
+msgid "Default profile"
+msgstr "デフォルトのプロファイル"
+
+#: ../data/nautilus-actions.schemas.in.h:10
+msgid ""
+"Defines the list of valid schemes to be matched against the selected items. "
+"The scheme is the protocol used to access the files. The keyword to use is "
+"the one used in the URI. Examples of valid URI include: file:///tmp/foo.txt "
+"sftp:///root@test.example.net/tmp/foo.txt The most common schemes are: "
+"'file': local files 'sftp': files accessed via SSH 'ftp': files accessed via "
+"FTP 'smb': files accessed via Samba (Windows share) 'dav': files accessed "
+"via WebDAV All schemes used by Nautilus can be used here."
+msgstr ""
+"選択したアイテムに対応する妥当なスキームを要素とするリストです。スキームとは"
+"ファイルにアクセスする際に使用するプロトコルです。１スキームにつき１個の URI "
+"で指定して下さい。\n"
+"\n"
+"妥当な URI の例:\n"
+"file:///tmp/foo.txt\n"
+"sftp:///root@test.example.net/tmp/foo.txt\n"
+"\n"
+"よく利用するなスキーム:\n"
+"'file://' (ローカルのファイルにアクセする)\n"
+"'sftp://' (SSH を介してファイルにアクセスする)\n"
+"'ftp://' (FTP を介してファイルにアクセスする)\n"
+"'smb://' (Windows 共有の Samba を介してファイルにアクセスする)\n"
+"'dav://' (WebDAV を介してファイルにアクセスする)\n"
+"\n"
+"Nautilus で使用できるスキームは全てここでも利用できます。"
+
+#: ../data/nautilus-actions.schemas.in.h:11
+msgid ""
+"If TRUE, and if the user has defined a single root menu for its actions, "
+"then an 'About Nautilus Actions' will be displayed at end of the first "
+"submenu."
+msgstr ""
+"TRUE にして、アクションに対して単一のルート・メニューを定義している場合、最初"
+"のメニュー項目に \"Nautilus Actions について\" が配置されます。"
+
+#: ../data/nautilus-actions.schemas.in.h:12 ../src/common/na-xml-names.h:113
+msgid ""
+"If the action is disabled, it will never appear in the Nautilus context menu"
+msgstr ""
+"アクションが無効な場合、Nautilus のコンテキスト・メニューには表示されなくなり"
+"ます。"
+
+#: ../data/nautilus-actions.schemas.in.h:13 ../src/common/na-xml-names.h:161
+msgid ""
+"If you need one or more files or folders to be selected, set this key to "
+"'true'. If you want just one file or folder, set 'false'"
+msgstr ""
+"１個以上のファイルまたはフォルダを選択できるようにする場合は、このキーを "
+"TRUE にして下さい。逆に、ファイルまたはフォルダを一つだけ選択できるようにする"
+"場合は FALSE にして下さい。"
+
+#: ../data/nautilus-actions.schemas.in.h:14 ../src/common/na-xml-names.h:139
+msgid ""
+"If you need to match a filename in a case-sensitive manner, set this key to "
+"'true'. If you also want, for example '*.jpg' to match 'photo.JPG', set "
+"'false'"
+msgstr ""
+"大/小文字を区別してファイル名を選択する場合は、このキーを TRUE にして下さい。"
+"逆に、'*.jpg' というパターンで 'photo.JPG' を選択できるようにする場合は "
+"FALSE にして下さい。"
+
+#: ../data/nautilus-actions.schemas.in.h:15
+msgid "Last folder selected when browsing for a command in the Conditions tab"
+msgstr "条件のタブでコマンドを参照した時に線tかうした最後のフォルダです。"
+
+#: ../data/nautilus-actions.schemas.in.h:16
+msgid ""
+"Last folder selected when choosing a folder from where import new actions"
+msgstr "新しいアクションをインポートした際に選択した最後のフォルダです。"
+
+#: ../data/nautilus-actions.schemas.in.h:17
+msgid "Last folder selected when choosing a folder where to export the actions"
+msgstr "アクションをエキスポートした際に選択した最後のフォルダです。"
+
+#: ../data/nautilus-actions.schemas.in.h:18
+msgid "Last selected folder"
+msgstr "最後に選択したフォルダ"
+
+#: ../data/nautilus-actions.schemas.in.h:19
+msgid "Main pane position"
+msgstr "メイン・ウィンドウのペインの位置"
+
+#: ../data/nautilus-actions.schemas.in.h:20
+msgid "Position and size of the Legend dialog"
+msgstr "凡例ダイアログの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:21
+msgid ""
+"Position and size of the Legend dialog ; default is set by the UI manager"
+msgstr ""
+"凡例ダイアログの位置と大きさです。デフォルトは UI マネージャが指定します。"
+
+#: ../data/nautilus-actions.schemas.in.h:22
+msgid "Position and size of the command chooser window"
+msgstr "コマンド選択ウィンドウの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:23
+msgid ""
+"Position and size of the command chooser window in the Conditions tab ; "
+"default is set by the window manager"
+msgstr ""
+"条件タブにあるコマンド選択ウィンドウの位置と大きさです。デフォルトはウィンド"
+"ウ・マネージャが指定します。"
+
+#: ../data/nautilus-actions.schemas.in.h:24
+msgid "Position and size of the export assistant window"
+msgstr "エキスポート・ウィンドウの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:25
+msgid ""
+"Position and size of the export assistant window ; default is set by the "
+"window manager"
+msgstr ""
+"エキスポート・ウィンドウの位置です。デフォルトはウィンドウ・マネージャが指定"
+"します。"
+
+#: ../data/nautilus-actions.schemas.in.h:26
+msgid "Position and size of the import assistant window"
+msgstr "インポート・ウィンドウの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:27
+msgid ""
+"Position and size of the import assistant window ; default is set by the "
+"window manager"
+msgstr ""
+"インポート・ウィンドウの位置です。デフォルトはウィンドウ・マネージャが指定し"
+"ます。"
+
+#: ../data/nautilus-actions.schemas.in.h:28
+msgid "Position and size of the main window"
+msgstr "メイン・ウィンドウの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:29
+msgid ""
+"Position and size of the main window ; default is set by the window manager"
+msgstr ""
+"メイン・ウィンドウの位置と大きさです。デフォルトはウィンドウ・マネージャが指"
+"定します。"
+
+#: ../data/nautilus-actions.schemas.in.h:30
+msgid "Position and size of the preferences dialog"
+msgstr "設定ダイアログの位置と大きさ"
+
+#: ../data/nautilus-actions.schemas.in.h:31
+msgid ""
+"Position and size of the preferences dialog ; default is set by the window "
+"manager"
+msgstr ""
+"設定ダイアログの位置と大きさです。デフォルトはウィンドウ・マネージャが指定し"
+"ます。"
+
+#: ../data/nautilus-actions.schemas.in.h:32
+msgid "Sort actions in alphabetical order"
+msgstr "アルファベット順に並び替えるかどうか"
+
+#: ../data/nautilus-actions.schemas.in.h:33 ../src/common/na-xml-names.h:116
+msgid ""
+"The field is here to give the user a human readable name for a profile in "
+"the Nact interface. If not set there will be a default auto generated string "
+"set by default"
+msgstr ""
+"Nautilus アクションのウィンドウに表示するプロファイルの可読な名前です。名前が"
+"指定されていない場合は、自動的に生成したデフォルトの名前がセットされます。"
+
+#: ../data/nautilus-actions.schemas.in.h:34 ../src/common/na-xml-names.h:108
+msgid "The icon of the menu item"
+msgstr "メニュー・アイテムのアイコン"
+
+#: ../data/nautilus-actions.schemas.in.h:35 ../src/common/na-xml-names.h:109
+msgid ""
+"The icon of the menu item that will appear next to the label in the Nautilus "
+"popup menu when the selection matches the appearance conditions settings"
+msgstr ""
+"選択したオブジェクトがメニュー・アイテムを表示する条件を満足している時に、"
+"Nautilus のポップアップ・メニューのラベルの隣に表示するメニュー・アイテムのア"
+"イコンです。"
+
+#. GConf schema descriptions
+#.
+#: ../data/nautilus-actions.schemas.in.h:36 ../src/common/na-xml-names.h:101
+msgid "The label of the menu item"
+msgstr "メニュー・アイテムのラベル"
+
+#: ../data/nautilus-actions.schemas.in.h:37 ../src/common/na-xml-names.h:102
+msgid ""
+"The label of the menu item that will appear in the Nautilus popup menu when "
+"the selection matches the appearance condition settings"
+msgstr ""
+"選択したオブジェクトがメニュー・アイテムを表示する条件を満足している時に、"
+"Nautilus のポップアップ・メニューに表示するメニュー・アイテムのラベルです。"
+
+#: ../data/nautilus-actions.schemas.in.h:38 ../src/common/na-xml-names.h:134
+msgid "The list of pattern to match the selected file(s)/folder(s)"
+msgstr "選択したファイル/フォルダに一致させるパターンの並び"
+
+#: ../data/nautilus-actions.schemas.in.h:39 ../src/common/na-xml-names.h:142
+msgid "The list of patterns to match the mimetypes of the selected file(s)"
+msgstr "ファイルの MIME 型を選択する際に適用するパターンの並び"
+
+#: ../data/nautilus-actions.schemas.in.h:40 ../src/common/na-xml-names.h:163
+msgid "The list of schemes where the selected files should be located"
+msgstr "選択したファイルを格納している場所を示すスキームの並び"
+
+#: ../data/nautilus-actions.schemas.in.h:41 ../src/common/na-xml-names.h:122
+#: ../src/utils/nautilus-actions-new.c:71
+msgid "The parameters of the command"
+msgstr "コマンドの引数並び"
+
+#: ../data/nautilus-actions.schemas.in.h:43
+#, no-c-format
+msgid ""
+"The parameters of the command to start when the user selects the menu item "
+"in the Nautilus popup menu. The parameters can contain some special tokens "
+"which are replaced by Nautilus information before starting the command: %d: "
+"base folder of the selected file(s) %f: the name of the selected file or the "
+"first one if many are selected %h: hostname of the URI %m: space-separated "
+"list of the basenames of the selected file(s)/folder(s) %M: space-separated "
+"list of the selected file(s)/folder(s), with their full paths %p: port "
+"number of the first URI %R: space-separated list of selected URIs %s: scheme "
+"of the URI %u: URI %U: username of the URI %%: a percent sign"
+msgstr ""
+"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムを選択した"
+"時に起動するプログラムの引数です。\n"
+"\n"
+"この引数には特別な変数をいくつか指定することが可能で、コマンドを実行する前に "
+"Nautilus の情報に置き換えられます:\n"
+"\n"
+"%d: 選択した複数のファイルを格納するフォルダの名前\n"
+"%f: 選択した１個のファイル、または複数のファイルを選択した場合は一番最初の"
+"ファイル\n"
+"%h: URI から取得したホスト名\n"
+"%m: 選択したファイルやフォルダのベース名を空白で区切って並べた文字列\n"
+"%M: 選択したファイルやフォルダの絶対パス名を空白で区切って並べた文字列\n"
+"%p: 一番最初の URI から取得したポート番号\n"
+"%R: 選択した複数の URI を空白で区切って並べた文字列\n"
+"%s: URI のスキーマ\n"
+"%u: URI そのもの\n"
+"%U: URI に指定したユーザ名\n"
+"%%: パラメータ記号そのもの"
+
+#: ../data/nautilus-actions.schemas.in.h:44 ../src/common/na-xml-names.h:119
+#: ../src/utils/nautilus-actions-new.c:70
+#: ../src/utils/nautilus-actions-new.c:73
+msgid "The path of the command"
+msgstr "コマンドのパス名"
+
+#: ../data/nautilus-actions.schemas.in.h:45 ../src/common/na-xml-names.h:120
+msgid ""
+"The path of the command to start when the user select the menu item in the "
+"Nautilus popup menu"
+msgstr ""
+"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムを選択した"
+"時に起動するプログラムのパス名です。"
+
+#: ../data/nautilus-actions.schemas.in.h:46 ../src/common/na-xml-names.h:104
+#: ../src/utils/nautilus-actions-new.c:67
+msgid "The tooltip of the menu item"
+msgstr "メニュー・アイテムのツールチップ"
+
+#: ../data/nautilus-actions.schemas.in.h:47 ../src/common/na-xml-names.h:105
+msgid ""
+"The tooltip of the menu item that will appear in the Nautilus statusbar when "
+"the user points to the Nautilus popup menu item with his/her mouse"
+msgstr ""
+"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムの上にマウ"
+"ス・カーソルを置いた時に、Nautilus のステータス\n"
+"バーに表示するメニュー・アイテムのツールチップです。"
+
+#: ../data/nautilus-actions.schemas.in.h:48 ../src/common/na-xml-names.h:172
+msgid "The version of the configuration format"
+msgstr "設定のバージョン"
+
+#: ../data/nautilus-actions.schemas.in.h:49 ../src/common/na-xml-names.h:173
+msgid ""
+"The version of the configuration format that will be used to manage backward "
+"compatibility"
+msgstr "設定の下位互換性を考慮するために使用するフォーマットのバージョンです。"
+
+#: ../data/nautilus-actions.schemas.in.h:50
+msgid ""
+"This setting is tied in with the 'isdir' setting. The valid combinations "
+"are: isfile=TRUE and isdir=FALSE: the selection may hold only files "
+"isfile=FALSE and isdir=TRUE: the selection may hold only folders isfile=TRUE "
+"and isdir=TRUE: the selection may hold both files and folders isfile=FALSE "
+"and isdir=FALSE: this is an invalid combination (your configuration will "
+"never appear)"
+msgstr ""
+"この設定は 'isdir' の設定に関連づけられます。ここで妥当は組み合わせは:\n"
 "\n"
 "isfile=TRUE でかつ isdir=FALSE: 選択できるオブジェクトはファイルだけ)\n"
 "isfile=FALSE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダだけ\n"
@@ -845,48 +364,190 @@ msgstr ""
 "isfile=FALSE でかつ isdir=FALSE: 間違った組み合わせ (設定は無効なので表示され"
 "ません)"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:91
-msgid "'true' if the selection can have files, 'false' otherwise"
-msgstr "選択できるオブジェクトがファイルかどうか"
-
-#. i18n notes: The last space is important if your language add a space after a period sign "." because a string is concatenated after this string
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:93
-msgid "This setting is tied in with the 'isdir' setting. "
-msgstr "この設定は 'isdir' の設定と関連があります。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:94
-msgid "'true' if the selection can have folders, 'false' otherwise"
-msgstr "選択できるオブジェクトがフォルダかどうか"
-
-#. i18n notes: The last space is important if your language add a space after a period sign "." because a string is concatenated after this string
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:96
-msgid "This setting is tied in with the 'isfile' setting. "
-msgstr "この設定は 'isfile' の設定と関連があります。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:97
-msgid "'true' if the selection can have several items, 'false' otherwise"
-msgstr "複数のアイテムを選択できるかどうか"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:98
+#: ../data/nautilus-actions.schemas.in.h:51
 msgid ""
-"If you need one or more files or folders to be selected, set this key to "
-"'true'. If you want just one file or folder, set 'false'"
+"This setting is tied in with the 'isfile' setting. The valid combinations "
+"are: isfile=TRUE and isdir=FALSE: the selection may hold only files "
+"isfile=FALSE and isdir=TRUE: the selection may hold only folders isfile=TRUE "
+"and isdir=TRUE: the selection may hold both files and folders isfile=FALSE "
+"and isdir=FALSE: this is an invalid combination (your configuration will "
+"never appear)"
 msgstr ""
-"一個以上のファイルまたはフォルダを選択できるようにする場合は、このキーを "
-"TRUE にして下さい。逆に、ファイルまたはフォルダを一つだけ選択できるようにする"
-"場合は FALSE にして下さい。"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:99
-msgid "The list of GnomeVFS schemes where the selected files should be located"
-msgstr "選択したファイルを格納している場所を示す GnomeVFS スキームの並び"
-
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:100
-msgid ""
-"Defines the list of valid GnomeVFS schemes to be matched against the "
-"selected items. The GnomeVFS scheme is the protocol used to access the "
-"files. The keyword to use is the one used in the GnomeVFS URI.\n"
+"この設定は 'isfile' の設定に関連づけられます。ここで妥当は組み合わせは:\n"
 "\n"
-"Examples of GnomeVFS URI include: \n"
+"isfile=TRUE でかつ isdir=FALSE: 選択できるオブジェクトはファイルだけ)\n"
+"isfile=FALSE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダだけ\n"
+"isfile=TRUE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダとファイルの両"
+"方\n"
+"isfile=FALSE でかつ isdir=FALSE: 間違った組み合わせ (設定は無効なので表示され"
+"ません)"
+
+#: ../data/nautilus-actions.schemas.in.h:52
+msgid ""
+"When TRUE, the actions are maintained in alphabetical order (historical "
+"behavior). When FALSE, user is free to reorder them via Nautilus-Actions "
+"configuration tool."
+msgstr ""
+"TRUE にすると、アクションの名前がアルファベット順に並び替えられます (歴史的に"
+"も標準的な仕様です)。FALSE にすると、自由に並び替えることができます。"
+
+#: ../data/nautilus-actions.schemas.in.h:53 ../src/common/na-xml-names.h:112
+#: ../src/utils/nautilus-actions-new.c:69
+msgid "Whether the action is enabled"
+msgstr "アクションが有効かどうか"
+
+#: ../data/nautilus-actions.schemas.in.h:54
+msgid "Width of the main window pane ; default is set by the UI manager"
+msgstr ""
+"メイン・ウィンドウの中にあるペインの幅です。デフォルトは UI マネージャが指定"
+"します。"
+
+#: ../src/common/na-about.c:72
+msgid ""
+"Nautilus Actions Configuration Tool is free software; you can redistribute "
+"it and/or modify it under the terms of the GNU General Public License as "
+"published by the Free Software Foundation; either version 2 of the License, "
+"or (at your option) any later version."
+msgstr ""
+"Nautilus アクションはフリーソフトウェアです。フリーソフトウェア財団が提供す"
+"る GNU 一般公衆利用許諾契約書の第二版、あるいはそれ以降の版が定める条項の下で"
+"本プログラムを再頒布または変更することができます。"
+
+#: ../src/common/na-about.c:76
+msgid ""
+"Nautilus Actions Configuration Tool is distributed in the hope that it will "
+"be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License for more details."
+msgstr ""
+"本プログラムは有用とは思いますが、その頒布にあたり商用での利用や特定の目的に"
+"対する適用については暗黙の保証を含めて、いかなる保証も行ないません。詳細には "
+"GNU 一般公衆利用許諾契約書をご覧下さい。"
+
+#: ../src/common/na-about.c:80
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nautilus Actions Configuration Tool ; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
+msgstr ""
+"あなたは本プログラムと一緒に GNU 一般公衆利用許諾契約書の写しを受け取っている"
+"はずです。そうでない場合は、Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, USA まで連絡して下さい。"
+
+#: ../src/common/na-about.c:103
+msgid "A graphical interface to create and edit your Nautilus actions."
+msgstr "Nautilus アクションを作成したり編集するための設定ツールです。"
+
+#: ../src/common/na-about.c:104
+msgid ""
+"Copyright © 2005-2007 Frederic Ruaudel <grumz@grumz.net>\n"
+"Copyright © 2009 Pierre Wieser <pwieser@trychlos.org>"
+msgstr ""
+"Copyright © 2005-2007 Frederic Ruaudel <grumz@grumz.net>\n"
+"Copyright © 2009 Pierre Wieser <pwieser@trychlos.org>"
+
+#: ../src/common/na-about.c:106
+msgid "The GNOME Translation Project <gnome-i18n@gnome.org>"
+msgstr ""
+"相花 毅 <takeshi.aihana@gmail.com>\n"
+"佐藤 暁 <ss@gnome.gr.jp>\n"
+"GNOME 翻訳プロジェクト <gnome-i18n@gnome.org>"
+
+#. i18n: default label for a newly created action
+#: ../src/common/na-action.h:52
+msgid "New Nautilus action"
+msgstr "新しいアクション"
+
+#. too long string for iso c: 665 (max=509)
+#: ../src/common/na-xml-names.h:124
+msgid ""
+"The parameters of the command to start when the user selects the menu item "
+"in the Nautilus popup menu.\n"
+"\n"
+"The parameters can contain some special tokens which are replaced by "
+"Nautilus information before starting the command:\n"
+"\n"
+"%d: base folder of the selected file(s)\n"
+"%f: the name of the selected file or the first one if many are selected\n"
+"%h: hostname of the URI\n"
+"%m: space-separated list of the basenames of the selected file(s)/folder(s)\n"
+"%M: space-separated list of the selected file(s)/folder(s), with their full "
+"paths\n"
+"%p: port number of the first URI\n"
+"%R: space-separated list of selected URIs\n"
+"%s: scheme of the URI\n"
+"%u: URI\n"
+"%U: username of the URI\n"
+"%%: a percent sign"
+msgstr ""
+"ユーザが Nautilus のポップアップ・メニューにあるメニュー・アイテムを選択した"
+"時に起動するプログラムの引数です。\n"
+"\n"
+"この引数には特別な変数をいくつか指定することが可能で、コマンドを実行する前に "
+"Nautilus の情報に置き換えられます:\n"
+"\n"
+"%d: 選択した複数のファイルを格納するフォルダの名前\n"
+"%f: 選択した１個のファイル、または複数のファイルを選択した場合は一番最初の"
+"ファイル\n"
+"%h: URI から取得したホスト名\n"
+"%m: 選択したファイルやフォルダのベース名を空白で区切って並べた文字列\n"
+"%M: 選択したファイルやフォルダの絶対パス名を空白で区切って並べた文字列\n"
+"%p: 一番最初の URI から取得したポート番号\n"
+"%R: 選択した複数の URI を空白で区切って並べた文字列\n"
+"%s: URI のスキーマ\n"
+"%u: URI そのもの\n"
+"%U: URI に指定したユーザ名\n"
+"%%: パラメータ記号そのもの"
+
+#: ../src/common/na-xml-names.h:147
+msgid ""
+"This setting is tied in with the 'isdir' setting. The valid combinations "
+"are:\n"
+"\n"
+"isfile=TRUE and isdir=FALSE: the selection may hold only files\n"
+"isfile=FALSE and isdir=TRUE: the selection may hold only folders\n"
+"isfile=TRUE and isdir=TRUE: the selection may hold both files and folders\n"
+"isfile=FALSE and isdir=FALSE: this is an invalid combination (your "
+"configuration will never appear)"
+msgstr ""
+"この設定は 'isdir' の設定に関連づけられます。ここで妥当は組み合わせは:\n"
+"\n"
+"isfile=TRUE でかつ isdir=FALSE: 選択できるオブジェクトはファイルだけ)\n"
+"isfile=FALSE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダだけ\n"
+"isfile=TRUE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダとファイルの両"
+"方\n"
+"isfile=FALSE でかつ isdir=FALSE: 間違った組み合わせ (設定は無効なので表示され"
+"ません)"
+
+#: ../src/common/na-xml-names.h:154
+msgid ""
+"This setting is tied in with the 'isfile' setting. The valid combinations "
+"are:\n"
+"\n"
+"isfile=TRUE and isdir=FALSE: the selection may hold only files\n"
+"isfile=FALSE and isdir=TRUE: the selection may hold only folders\n"
+"isfile=TRUE and isdir=TRUE: the selection may hold both files and folders\n"
+"isfile=FALSE and isdir=FALSE: this is an invalid combination (your "
+"configuration will never appear)"
+msgstr ""
+"この設定は 'isfile' の設定に関連づけられます。ここで妥当は組み合わせは:\n"
+"\n"
+"isfile=TRUE でかつ isdir=FALSE: 選択できるオブジェクトはファイルだけ)\n"
+"isfile=FALSE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダだけ\n"
+"isfile=TRUE でかつ isdir=TRUE: 選択できるオブジェクトはフォルダとファイルの両"
+"方\n"
+"isfile=FALSE でかつ isdir=FALSE: 間違った組み合わせ (設定は無効なので表示され"
+"ません)<"
+
+#. too long string for iso c: 510 (max=509)
+#: ../src/common/na-xml-names.h:165
+msgid ""
+"Defines the list of valid schemes to be matched against the selected items. "
+"The scheme is the protocol used to access the files. The keyword to use is "
+"the one used in the URI.\n"
+"\n"
+"Examples of valid URI include:\n"
 "file:///tmp/foo.txt\n"
 "sftp:///root@test.example.net/tmp/foo.txt\n"
 "\n"
@@ -896,13 +557,13 @@ msgid ""
 "'sftp': files accessed via SSH\n"
 "'ftp': files accessed via FTP\n"
 "'smb': files accessed via Samba (Windows share)\n"
-"'dav': files accessed via WebDav\n"
+"'dav': files accessed via WebDAV\n"
 "\n"
-"All GnomeVFS schemes used by Nautilus can be used here."
+"All schemes used by Nautilus can be used here."
 msgstr ""
 "選択したアイテムに一致させるために妥当な GnomeVFS スキームの並びを定義しま"
 "す。GnomeVFS スキームはファイルにアクセスする際に\n"
-"使用するプロトコルです。GnomeVFS URI につき一個のキーワードを使用して下さ"
+"使用するプロトコルです。GnomeVFS URI につき１個のキーワードを使用して下さ"
 "い。\n"
 "\n"
 "GnomeVFS URI の例:\n"
@@ -916,250 +577,713 @@ msgstr ""
 "'smb': Windows 共有の Samba を介してアクセスするファイル\n"
 "'dav': WebDAV を介してアクセスするファイル\n"
 "\n"
-"Nautilus が使用する GnomeVFS スキームは全てここで定義できます。"
+"Nautilus が使用する GnomeVFS スキームは全てここで定義できます。<"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:101
-msgid "The version of the configuration format"
-msgstr "設定のバージョン"
+#. i18n: unable to load <dialog_name> dialog from XML definition in <filename>
+#: ../src/nact/base-application.c:1128
+#, c-format
+msgid "Unable to load %s dialog from XML definition in %s."
+msgstr "%s のダイアログを %s にあるXML 定義から読み込めませんでした"
 
-#: ../libnautilus-actions/nautilus-actions-config-gconf-private.h:102
+#: ../src/nact/base-application.c:1142
+msgid "Unable to initialize the internationalization environment."
+msgstr "国際化の環境を初期化できませんでした"
+
+#: ../src/nact/base-application.c:1151
+msgid "Unable to initialize the Gtk+ user interface."
+msgstr "GTK+ のユーザ・インタフェースを初期化できませんでした"
+
+#: ../src/nact/base-application.c:1160
+msgid "Another instance of the application is already running."
+msgstr "別のインスタンスが既に起動中です"
+
+#: ../src/nact/base-application.c:1169
+msgid "No filename provided for the UI XML definition."
+msgstr "UI の XML 定義に対するファイル名が提供されていません"
+
+#. i18n: Unable to load the XML definition from <filename>
+#: ../src/nact/base-application.c:1179
+#, c-format
+msgid "Unable to load the XML definition from %s."
+msgstr "%s からXML 定義を読み込めませんでした"
+
+#: ../src/nact/base-application.c:1192
+msgid "Unable to set the default icon for the application."
+msgstr "アプリケーションにデフォルトのアイコンをセットできませんでした"
+
+#: ../src/nact/base-application.c:1201
+msgid "Unable to get the main window of the application."
+msgstr "アプリケーションのメイン・ウィンドウを取得できませんでした"
+
+#: ../src/nact/nact-application.c:299
 msgid ""
-"The version of the configuration format that will be used to manage backward "
-"compatibility"
-msgstr "設定の下位互換性を考慮するために使用するフォーマットのバージョンです。"
+"Another instance of Nautilus Actions Configuration Tool is already running."
+msgstr "別の Nautilus アクション設定ツールが起動中です"
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config.c:205
+#. i18n: another instance is already running: second line of error message
+#: ../src/nact/nact-application.c:301
+msgid "Please switch back to it."
+msgstr "最初に起動したツールで設定して下さい。"
+
+#. static const gchar *thisfn = "nact_application_appli_get_application_name";
+#. g_debug( "%s: application=%p", thisfn, ( void * ) application );
+#. i18n: this is the application name, used in window title
+#: ../src/nact/nact-application.c:340
+msgid "Nautilus Actions Configuration Tool"
+msgstr "Nautilus アクションの設定ツール"
+
+#: ../src/nact/nact-assistant.c:482
+msgid "Are you sure you want to quit this assistant ?"
+msgstr "本当にこのアシスタントを終了してもよろしいですか？"
+
+#: ../src/nact/nact-assistant-export.c:446
+msgid "You may not have writing permissions on selected folder."
+msgstr "選択したフォルダに対する書き込み権限をお持ちではないようです。"
+
+#. i18n: this is the title of the confirm page of the export assistant
+#: ../src/nact/nact-assistant-export.c:706
+msgid "About to export selected actions:"
+msgstr "選択したアクションをエキスポートします:"
+
+#. i18n: all exported actions go to one destination folder
+#: ../src/nact/nact-assistant-export.c:722
+msgid "Into the destination folder:"
+msgstr "エキスポートする先のフォルダ:"
+
+#. i18n: error message displayed in the result page of the export assistant
+#: ../src/nact/nact-assistant-export.c:789
+msgid "One or more errors have been detected when exporting actions."
+msgstr "アクションをエキスポートする際に複数のエラーが発生しました"
+
+#: ../src/nact/nact-assistant-export.c:790
 #, c-format
 msgid ""
-"The action '%s' already exists with the name '%s', please first remove the "
-"existing one before trying to add this one"
+"<b>%s</b>\n"
+"\n"
+"%s"
 msgstr ""
-"'%s' というアクションは '%s' という名前で既に存在しているので、追加する前に古"
-"いアクションを削除して下さい。"
+"<b>%s</b>\n"
+"\n"
+"%s"
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config.c:222
-#, c-format
-msgid "Can't save action '%s'"
-msgstr "アクション '%s' を保存できません"
+#. i18n: result of the export assistant
+#: ../src/nact/nact-assistant-export.c:796
+msgid "Selected actions have been successfully exported..."
+msgstr "選択したアクションのエキスポートが完了しました..."
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config.c:470
-#, fuzzy, c-format
-msgid ""
-"A profile already exists with the name '%s', please first remove or rename "
-"the existing one before trying to add this one"
-msgstr ""
-"'%s' というアクションは '%s' という名前で既に存在しているので、追加する前に古"
-"いアクションを削除して下さい。"
+#. i18n: the target folder is displayed in its own line
+#: ../src/nact/nact-assistant-export.c:802
+msgid "... in folder:"
+msgstr "... in folder:"
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config.c:524
-#, fuzzy, c-format
-msgid "Can't remove the old profile '%s'"
-msgstr "ファイル '%s' を解析できません！"
-
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config.c:531
-#, fuzzy, c-format
-msgid "Can't find profile named '%s'"
-msgstr "ファイル '%s' を解析できません！"
-
-#. i18n notes: will be displayed in an error dialog concatenated to another error message
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:184
-msgid " and some profiles are incomplete: "
-msgstr ""
-
-#. i18n notes: this is a list separator, it can have more than one character (ie, in French it will be ", ")
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:204
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:717
-msgid ","
-msgstr ","
-
-#. i18n notes: will be displayed in an error dialog concatenated to another error message
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:303
-#, c-format
-msgid "%s (one missing key: %s)%s"
-msgid_plural "%s (missing keys: %s)%s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:682
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:817
+#: ../src/nact/nact-assistant-export.c:803
 #, c-format
 msgid ""
-"This XML file is not a valid Nautilus-actions config file (found <%s> "
-"element instead of <%s>)"
+"%s<b>%s</b>\n"
+"\n"
+"\t%s/\n"
+"\n"
 msgstr ""
-"この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当ではあり"
-"ません (<%2$s> ではなく <%1$s> という要素があります)。"
+"%s<b>%s</b>\n"
+"\n"
+"\t%s/\n"
+"\n"
 
-#. if the version of the file is greater than the current one, we reject the file
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:696
+#. i18n: the export file for each actions is displayed in its own line
+#: ../src/nact/nact-assistant-export.c:809
+msgid "... as files:"
+msgstr "... as files:"
+
+#: ../src/nact/nact-assistant-export.c:810
 #, c-format
 msgid ""
-"This config file is more recent than this version of Nautilus-actions can "
-"support. Please upgrade Nautilus-actions to the latest version if you want "
-"to be able to import it (File version: %s (max supported version : %s))"
+"%s<b>%s</b>\n"
+"\n"
 msgstr ""
+"%s<b>%s</b>\n"
+"\n"
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:744
-#, fuzzy, c-format
-msgid ""
-"This XML file is not a valid Nautilus-actions config file (missing key: %s)%s"
-msgid_plural ""
-"This XML file is not a valid Nautilus-actions config file (missing keys: %s)%"
-"s"
-msgstr[0] ""
-"この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当ではあり"
-"ません (%s キーがありません)。"
-msgstr[1] ""
-"この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当ではあり"
-"ません (%s キーがありません)。"
+#. i18n: the title of the confirm page of the import assistant
+#: ../src/nact/nact-assistant-import.c:491
+msgid "About to import selected files:"
+msgstr "選択したファイルのインポート中:"
 
-#. No error occured but we have not found the "version" gconf key
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:753
-#, fuzzy, c-format
+#. i18n: result of the import assistant
+#: ../src/nact/nact-assistant-import.c:525
+msgid "Selected files have been imported:"
+msgstr "選択したファイルをインポートしました:"
+
+#. i18n: this is the globally unique identifier and the label of the newly imported action
+#: ../src/nact/nact-assistant-import.c:547
+#, c-format
+msgid "UUID: %s\t%s"
+msgstr "UUID: %s\t%s"
+
+#. i18n: just indicate that the import of this file was unsuccessfull
+#: ../src/nact/nact-assistant-import.c:556
+msgid "NOT OK"
+msgstr "失敗しました"
+
+#: ../src/nact/nact.desktop.in.h:1
+msgid "Add items to the Nautilus popup menu"
+msgstr "アイテムを Nautilus のポップアップ・メニューに追加します"
+
+#: ../src/nact/nact.desktop.in.h:2
+msgid "Nautilus Actions Configuration"
+msgstr "Nautilus アクションの設定"
+
+#. i18n: status bar message when the action label is empty
+#: ../src/nact/nact-iaction-tab.c:348
+msgid "Caution: a label is mandatory for the action."
+msgstr "注意: アクションのラベルは必須です"
+
+#. i18n: label in front of the GtkEntry where user enters the action label
+#. i18n: label in front of the GtkEntry where user enters the profile label
+#: ../src/nact/nact-iaction-tab.c:361 ../src/nact/nact-icommand-tab.c:366
+msgid "_Label :"
+msgstr "ラベル(_L):"
+
+#: ../src/nact/nact-iaction-tab.c:449
+msgid "Choosing an icon"
+msgstr "アイコンの選択"
+
+#. i18n notes: when no icon is selected in the drop-down list
+#: ../src/nact/nact-iaction-tab.c:505
+msgid "None"
+msgstr "アイコンなし"
+
+#. i18n notes : scheme name set for a new entry in the scheme list
+#: ../src/nact/nact-iadvanced-tab.c:395
+msgid "new-scheme"
+msgstr "new-scheme"
+
+#: ../src/nact/nact-iadvanced-tab.c:396
+msgid "New scheme description"
+msgstr "(新しいスキームの説明を入力して下さい)"
+
+#. i18n notes : description of 'file' scheme
+#: ../src/nact/nact-iadvanced-tab.c:572
+msgid "Local files"
+msgstr "ローカルのファイル"
+
+#. i18n notes : description of 'sftp' scheme
+#: ../src/nact/nact-iadvanced-tab.c:574
+msgid "SSH files"
+msgstr "SSH のファイル"
+
+#. i18n notes : description of 'smb' scheme
+#: ../src/nact/nact-iadvanced-tab.c:576
+msgid "Windows files"
+msgstr "Windows のファイル"
+
+#. i18n notes : description of 'ftp' scheme
+#: ../src/nact/nact-iadvanced-tab.c:578
+msgid "FTP files"
+msgstr "FTP のファイル"
+
+#. i18n notes : description of 'dav' scheme
+#: ../src/nact/nact-iadvanced-tab.c:580
+msgid "WebDAV files"
+msgstr "WebDAV のファイル"
+
+#. i18n: status bar message when the profile label is empty
+#: ../src/nact/nact-icommand-tab.c:356
+msgid "Caution: a label is mandatory for the profile."
+msgstr "注意: プロファイルのラベルは必須です"
+
+#: ../src/nact/nact-icommand-tab.c:408
+msgid "Choosing a command"
+msgstr "コマンドの選択"
+
+#. static const char *thisfn = "nact_iconditions_update_example_label";
+#: ../src/nact/nact-icommand-tab.c:487
+#, c-format
+msgid "<i><b><span size=\"small\">e.g., %s</span></b></i>"
+msgstr "<i><b><span size=\"small\">プレビュー: %s</span></b></i>"
+
+#. i18n notes: example strings for the command preview
+#: ../src/nact/nact-icommand-tab.c:532
+msgid "/path/to"
+msgstr "/path/to"
+
+#: ../src/nact/nact-icommand-tab.c:533
+msgid "file1.txt"
+msgstr "file1.txt"
+
+#: ../src/nact/nact-icommand-tab.c:533
+msgid "file2.txt"
+msgstr "file2.txt"
+
+#: ../src/nact/nact-icommand-tab.c:534
+msgid " folder1"
+msgstr " folder1"
+
+#: ../src/nact/nact-icommand-tab.c:534
+msgid "folder2"
+msgstr "folder2"
+
+#: ../src/nact/nact-icommand-tab.c:535
+msgid " file1.txt"
+msgstr " file1.txt"
+
+#: ../src/nact/nact-icommand-tab.c:535
+msgid "folder1"
+msgstr "folder1"
+
+#: ../src/nact/nact-icommand-tab.c:537
+msgid "test.example.net"
+msgstr "test.example.net"
+
+#: ../src/nact/nact-icommand-tab.c:538
+msgid "file.txt"
+msgstr "file.txt"
+
+#: ../src/nact/nact-icommand-tab.c:539
+msgid "folder"
+msgstr "folder"
+
+#: ../src/nact/nact-icommand-tab.c:540
+msgid "8080"
+msgstr "8080"
+
+#: ../src/nact/nact-icommand-tab.c:544
+msgid "file:///path/to/file1.text"
+msgstr "file:///path/to/file1.text"
+
+#: ../src/nact/nact-icommand-tab.c:545
+msgid "file:///path/to/file2.text"
+msgstr "file:///path/to/file2.text"
+
+#: ../src/nact/nact-icommand-tab.c:546
+msgid "file:///path/to/a/dir"
+msgstr "file:///path/to/a/dir"
+
+#: ../src/nact/nact-icommand-tab.c:547
+msgid "file:///path/to/another/dir"
+msgstr "file:///path/to/another/dir"
+
+#: ../src/nact/nact-imenubar.c:101
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../src/nact/nact-imenubar.c:102
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../src/nact/nact-imenubar.c:103
+msgid "_Tools"
+msgstr "ツール(_T)"
+
+#: ../src/nact/nact-imenubar.c:104
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../src/nact/nact-imenubar.c:106
+msgid "_New action"
+msgstr "新しいアクション(_N)"
+
+#. i18n: tooltip displayed in the status bar when selecting the 'New action' item
+#: ../src/nact/nact-imenubar.c:108
+msgid "Define a new action."
+msgstr "新しいアクションを定義します"
+
+#: ../src/nact/nact-imenubar.c:110
+msgid "_New _profile"
+msgstr "新しいプロファイル(_N)"
+
+#. i18n: tooltip displayed in the status bar when selecting the 'New profile' item
+#: ../src/nact/nact-imenubar.c:112
+msgid "Define a new profile attached to the current action."
+msgstr "現在のアクションに関連づける新しいプロファイルを定義します"
+
+#. i18n: tooltip displayed in the status bar when selecting 'Save' item
+#: ../src/nact/nact-imenubar.c:116
 msgid ""
-"This XML file is not a valid Nautilus-actions config file (missing key: %s)"
+"Record all the modified actions. Invalid actions will be silently ignored."
 msgstr ""
-"この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当ではあり"
-"ません (%s キーがありません)。"
+"編集した全てのアクションを保存します (間違った設定のアクションは無視します)"
 
-#. i18n notes: will be displayed in an error dialog
-#: ../libnautilus-actions/nautilus-actions-config-schema-reader.c:827
+#. i18n: tooltip displayed in the status bar when selecting 'Quit' item
+#: ../src/nact/nact-imenubar.c:120
+msgid "Quit the application."
+msgstr "アプリケーションを終了します"
+
+#: ../src/nact/nact-imenubar.c:122
+msgid "D_uplicate"
+msgstr "複製の生成(_U)"
+
+#. i18n: tooltip displayed in the status bar when selecting the Duplicate item
+#: ../src/nact/nact-imenubar.c:124
+msgid "Create a copy of the selected action or profile."
+msgstr "選択したアクションまたはプロファイルの複製を生成します"
+
+#. i18n: tooltip displayed in the status bar when selecting the Delete item
+#: ../src/nact/nact-imenubar.c:128
+msgid "Remove the selected action or profile from your configuration."
+msgstr "選択したアクションまたはプロファイルを削除します"
+
+#: ../src/nact/nact-imenubar.c:130
+msgid "_Reload the list of actions"
+msgstr "アクションの一覧の更新(_R)"
+
+#. i18n: tooltip displayed in the status bar when selecting the 'Reload' item
+#: ../src/nact/nact-imenubar.c:132
+msgid "Cancel your current modifications and reload the list of actions."
+msgstr "現在の編集をキャンセルしてアクションの一覧を再読込みします"
+
+#: ../src/nact/nact-imenubar.c:134
+msgid "_Import assistant..."
+msgstr "インポート・アシスタント(_I)..."
+
+#. i18n: tooltip displayed in the status bar when selecting the Import item
+#: ../src/nact/nact-imenubar.c:136
+msgid ""
+"Import one or more actions from external (XML) files into your configuration."
+msgstr "外部のファイルからアクションをインポートします"
+
+#: ../src/nact/nact-imenubar.c:138
+msgid "E_xport assistant..."
+msgstr "エキスポポート・アシスタント(_X)..."
+
+#. i18n: tooltip displayed in the status bar when selecting the Export item
+#: ../src/nact/nact-imenubar.c:140
+msgid ""
+"Export one or more actions from your configuration to external XML files."
+msgstr "アクションを外部のファイルにエキスポートします"
+
+#. i18n: tooltip displayed in the status bar when selecting the Help item
+#: ../src/nact/nact-imenubar.c:144
+msgid "Display help about this program."
+msgstr "このアプリケーションのヘルプを表示します"
+
+#. i18n: tooltip displayed in the status bar when selecting the About item
+#: ../src/nact/nact-imenubar.c:148
+msgid "Display informations about this program."
+msgstr "このアプリケーションの情報を表示します"
+
+#. i18n: label of a duplicated action
+#. i18n: label of a duplicated profile
+#: ../src/nact/nact-imenubar.c:601 ../src/nact/nact-imenubar.c:615
+#, c-format
+msgid "Copy of %s"
+msgstr "%s の複製"
+
+#. i18n: message before reloading the list of actions
+#: ../src/nact/nact-imenubar.c:678
+msgid "This will cancel your current modifications."
+msgstr "現在編集中の内容はキャンセルされます"
+
+#: ../src/nact/nact-imenubar.c:679
+msgid "Are you sure this is what you want ?"
+msgstr "本当にキャンセルして一覧を更新してもよろしいですか？"
+
+#: ../src/nact/nact-main-window.c:1022
+msgid ""
+"One or more actions have been modified in the filesystem.\n"
+"You could keep to work with your current list of actions, or you may want to "
+"reload a fresh one."
+msgstr ""
+"複数のアクションが変更されています。\n"
+"そのままアクションの一覧で作業を続行するか、またはアクションの一覧を更新でき"
+"ます。"
+
+#: ../src/nact/nact-main-window.c:1028
+msgid ""
+"Note that reloading a fresh list of actions requires that you give up with "
+"your current modifications."
+msgstr ""
+"アクションの一覧を更新すると現在編集中の内容が破棄されるので注意して下さい。"
+
+#: ../src/nact/nact-main-window.c:1034
+msgid "Do you want to reload a fresh list of actions ?"
+msgstr "アクションの一覧を更新してもよろしいですか？"
+
+#: ../src/nact/nact-window.c:292
+msgid "An error has occured when trying to save the action"
+msgstr "アクションを保存する際にエラーが発生しました"
+
+#: ../src/nact/nact-window.c:325
+msgid "An error has occured when trying to delete the action"
+msgstr "アクションを削除する際にエラーが発生しました"
+
+#: ../src/nact/nact-window.c:352
+#, c-format
+msgid "One action has been modified."
+msgstr "アクションが変更されています"
+
+#: ../src/nact/nact-window.c:353
+msgid "Are you sure you want to quit without saving it ?"
+msgstr "本当に保存せずに終了してもよろしいですか？"
+
+#. first = g_strdup_printf( _( "%d actions have been modified." ), count );
+#: ../src/nact/nact-window.c:357
+#, c-format
+msgid "Actions have been modified."
+msgstr "複数のアクションが変更されています"
+
+#: ../src/nact/nact-window.c:358
+msgid "Are you sure you want to quit without saving them ?"
+msgstr "本当に保存せずに終了してもよろしいですか？"
+
+#: ../src/nact/nact-xml-reader.c:107
+#, c-format
+msgid "Unable to parse XML file: %s."
+msgstr "XML ファイルの '%s' を解析できません"
+
+#: ../src/nact/nact-xml-reader.c:108
 #, c-format
 msgid ""
-"This XML file is not a valid Nautilus-actions config file (root node is <%s> "
-"instead of <%s>)"
+"Invalid XML root element: waited for '%s' or '%s', found '%s' at line %d."
 msgstr ""
-"この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当ではあり"
-"ません (<%2$s> ではなく <%1$s> というノードがあります)。"
+"XML の root 要素が不正: '%s' または '%s' を期待したが '%s' を %d 行で取得した"
 
-#~ msgid " "
-#~ msgstr " "
+#: ../src/nact/nact-xml-reader.c:109
+#, c-format
+msgid "Waited for '%s' node, found (ignored) '%s' at line %d."
+msgstr "'%s' のノードを期待したが、'%s' を %d 行で取得した"
 
-#~ msgid "  "
-#~ msgstr "  "
+#: ../src/nact/nact-xml-reader.c:110
+#, c-format
+msgid "Unexpected (ignored) '%s' node found at line %d."
+msgstr "想定外の '%s' ノードを %d 行で取得した"
 
-#~ msgid "    "
-#~ msgstr "    "
+#: ../src/nact/nact-xml-reader.c:111
+#, c-format
+msgid "Schema is ignored at line %d."
+msgstr "スキームの %d 行を無視します"
 
-#~ msgid "Automatic"
-#~ msgstr "自動"
+#: ../src/nact/nact-xml-reader.c:112
+#, c-format
+msgid "Unexpected '%s' node found at line %d."
+msgstr "想定外の '%s' ノードを %d 行で取得した"
 
-#~ msgid ""
-#~ "Check this box if you want to get back all your configurations from the "
-#~ "version of Nautilus-actions 0.7.1 or lesser."
-#~ msgstr ""
-#~ "バージョン 0.7.1 以前の Nautilus-actions から全ての設定を戻す場合は ON に"
-#~ "して下さい"
+#: ../src/nact/nact-xml-reader.c:113
+#, c-format
+msgid "Unexpected '%s' entry found at line %d."
+msgstr "想定外の '%s' エントリを %d 行で取得した"
 
-#~ msgid "GConf schema description file (Nautilus-actions v1.x and later)"
-#~ msgstr "GConf スキーマの内容を記述したファイル (Nautilus-actions v1.x 以降)"
+#: ../src/nact/nact-xml-reader.c:114
+#, c-format
+msgid "Mandatory node '%s' not found."
+msgstr "必須のノードである '%s' が見つからなかった"
 
-#~ msgid "Import all my old configs"
-#~ msgstr "古い設定を全て取り込む"
+#: ../src/nact/nact-xml-reader.c:115
+msgid "No value found."
+msgstr "値が見つからなかった"
 
-#~ msgid "Menu Item & Action"
-#~ msgstr "メニュー・アイテムとアクション"
+#: ../src/nact/nact-xml-reader.c:116
+#, c-format
+msgid "Invalid UUID: waited for %s, found %s at line %d."
+msgstr "UUID が不正: %s を期待したが、 %s を %d 行で取得した"
 
-#~ msgid "Old XML config file (Nautilus-actions v0.x)"
-#~ msgstr "古い XML 形式の設定ファイル (Nautilus-action v0.x)"
+#: ../src/nact/nact-xml-reader.c:117
+#, c-format
+msgid "Invalid content: waited for %s prefix, found %s at line %d."
+msgstr "データの不正: %s という接頭子を期待したが、%s を %d 行で取得した"
 
-#~ msgid "Type of configuration:"
-#~ msgstr "設定の種類:"
+#: ../src/nact/nact-xml-reader.c:118
+#, c-format
+msgid "Invalid UUID %s found at line %d."
+msgstr "UUID が不正: %s を %d 行で取得した"
 
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "相花 毅 <aihana@gnome.gr.jp>\n"
-#~ "佐藤 暁 <ss@gnome.gr.jp>\n"
-#~ "日本GNOMEユーザー会 http://www.gnome.gr.jp"
+#: ../src/nact/nact-xml-reader.c:119
+#, c-format
+msgid "Already existing action (UUID: %s) at line %d."
+msgstr "既にあるアクション (UUID: %s) が %d 行に見つかった"
 
-#~ msgid "Can't parse file '%s' as old XML config file !"
-#~ msgstr "'%s' を古い設定ファイルとして解析できません！"
+#: ../src/nact/nact-xml-reader.c:120
+#, c-format
+msgid "Value '%s' already set: new value ignored at line %d."
+msgstr "値 '%s' は既に指定済: %d 行にある新しい値を無視する"
 
-#~ msgid "The old XML config file to convert"
-#~ msgstr "変換する古い XML 形式の設定ファイルを指定する"
+#: ../src/nact/nact-xml-reader.c:121
+msgid "UUID not found."
+msgstr "UUID が見つかりませんでした"
 
-#~ msgid "FILE"
-#~ msgstr "FILE"
+#: ../src/nact/nact-xml-reader.c:122
+msgid "Action label not found."
+msgstr "アクションのラベルが見つかりませんでした"
 
-#~ msgid "The name of the newly-converted GConf schema file"
-#~ msgstr "新しく変換した GConf スキーマ・ファイルの名前を指定する"
+#: ../src/test/test-parse-uris.c:56
+#, c-format
+msgid ""
+"URIs parsing test.\n"
+"\n"
+msgstr ""
+"URI の解析テスト中です。\n"
+"\n"
 
-#~ msgid ""
-#~ "Convert all old XML config files from previous installations [default]"
-#~ msgstr "以前インストールした古い XML 設定ファイルを全て変換する [default]"
+#: ../src/utils/nautilus-actions-new.c:66
+msgid "The label of the menu item (mandatory)"
+msgstr "メニュー項目に表示するラベル (必須)"
 
-#~ msgid ""
-#~ "The folder where the new GConf schema files will be saved if option -a is "
-#~ "set [default=/tmp]"
-#~ msgstr ""
-#~ "オプション -a を指定した時に新しい GConf スキーマ・ファイルを保存するフォ"
-#~ "ルダを指定する [default=/tmp]"
+#: ../src/utils/nautilus-actions-new.c:66
+msgid "LABEL"
+msgstr "LABEL"
 
-#~ msgid "DIR"
-#~ msgstr "DIR"
+#: ../src/utils/nautilus-actions-new.c:67
+msgid "TOOLTIP"
+msgstr "TOOLTIP"
 
-#~ msgid ""
-#~ "Syntax error:\n"
-#~ "\tOptions -i and -o are mutually exclusive with option -a\n"
-#~ "Try %s --help\n"
-#~ msgstr ""
-#~ "オプションのエラー:\n"
-#~ "\tオプション -a を指定した時は -i と -o は互いに排他です\n"
-#~ "%s --help で確認して下さい\n"
+#: ../src/utils/nautilus-actions-new.c:68
+msgid "The icon of the menu item (filename or GTK stock ID)"
+msgstr ""
+"メニュー・アイテムのアイコンを指定する (ファイル名または GTK+ のストック ID)"
 
-#~ msgid ""
-#~ "Syntax error:\n"
-#~ "\tOption -i is mandatory when using option -o\n"
-#~ "Try %s --help\n"
-#~ msgstr ""
-#~ "オプションのエラー:\n"
-#~ "\tオプション -o を指定した時は -i は必須です\n"
-#~ "%s --help で確認して下さい\n"
+#: ../src/utils/nautilus-actions-new.c:68
+msgid "ICON"
+msgstr "ICON"
 
-#~ msgid ""
-#~ "Error:\n"
-#~ "\t- Can't parse %s\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "エラー:\n"
-#~ "\t- %s を解析できません\n"
-#~ "%s\n"
+#: ../src/utils/nautilus-actions-new.c:70
+#: ../src/utils/nautilus-actions-new.c:73
+msgid "PATH"
+msgstr "PATH"
 
-#~ msgid "Converting %s..."
-#~ msgstr "%s の変換中..."
+#: ../src/utils/nautilus-actions-new.c:71
+msgid "PARAMS"
+msgstr "PARAMS"
 
-#~ msgid ""
-#~ "This XML file is not a valid Nautilus-actions config file (Bad test "
-#~ "section)"
-#~ msgstr ""
-#~ "この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当では"
-#~ "ありません (test セクションが間違っています)。"
+#: ../src/utils/nautilus-actions-new.c:72
+msgid ""
+"A pattern to match selected files against. May include wildcards (* or ?) "
+"(you must set one option for each pattern you need)"
+msgstr ""
+"ファイルを選択する際に適用するパターンで、ワイルドカード ('?','*') も使用でき"
+"ます (必要であれば、各パターンに対してそれぞれオプションを指定して下さい)"
 
-#~ msgid ""
-#~ "This XML file is not a valid Nautilus-actions config file (Bad command "
-#~ "section)"
-#~ msgstr ""
-#~ "この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当では"
-#~ "ありません (command セクションが間違っています)。"
+#: ../src/utils/nautilus-actions-new.c:72
+#: ../src/utils/nautilus-actions-new.c:74
+msgid "EXPR"
+msgstr "EXPR"
 
-#~ msgid ""
-#~ "This XML file is not a valid Nautilus-actions config file (Bad menu item "
-#~ "section)"
-#~ msgstr ""
-#~ "この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当では"
-#~ "ありません (menu セクションが間違っています)。"
+#: ../src/utils/nautilus-actions-new.c:74
+msgid ""
+"A pattern to match selected files' mimetype against. May include wildcards "
+"(* or ?) (you must set one option for each pattern you need)"
+msgstr ""
+"MIME 型を選択する際に適用するパターンで、ワイルドカード ('?','*') も使用でき"
+"ます (必要であれば、各パターンに対してそれぞれオプションを指定して下さい)"
 
-#~ msgid ""
-#~ "This XML file is not a valid Nautilus-actions config file (missing key"
-#~ "(s) : %s)"
-#~ msgstr ""
-#~ "この XML 形式のファイルは Nautilus アクションの設定ファイルとして妥当では"
-#~ "ありません (%s キーがありません)。"
+#: ../src/utils/nautilus-actions-new.c:75
+msgid "Set it if the selection must only contain files"
+msgstr "ファイルを選択できる場合にセットする"
+
+#: ../src/utils/nautilus-actions-new.c:76
+msgid ""
+"Set it if the selection must only contain folders. Specify both '--isfile' "
+"and '--isdir' options is selection can contain both types of items"
+msgstr "選択した内容にフォルダだけを含める時に指定する"
+
+#: ../src/utils/nautilus-actions-new.c:77
+msgid "Set it if the selection can have several items"
+msgstr "複数のオブジェクトを選択できる場合にセットする"
+
+#: ../src/utils/nautilus-actions-new.c:78
+msgid ""
+"A valid GVFS scheme where the selected files should be located (you must set "
+"one option for each scheme you need)"
+msgstr ""
+"選択したオブジェクトが格納されている GVFS スキームを指定する (各スキームに付"
+"き１個指定する)"
+
+#: ../src/utils/nautilus-actions-new.c:78
+msgid "SCHEME"
+msgstr "SCHEME"
+
+#: ../src/utils/nautilus-actions-new.c:84
+msgid "Directly import the newly created action in GConf configuration"
+msgstr "作成した新しいアクションを GConf の設定から直接インポートする"
+
+#: ../src/utils/nautilus-actions-new.c:85
+msgid ""
+"The URI of the folder where to write the new action as a GConf dump output "
+"[default: stdout]"
+msgstr ""
+"GConf のダンプを新しいアクションとして書き込む先のフォルダ (デフォルトは標準"
+"出力)"
+
+#: ../src/utils/nautilus-actions-new.c:85
+msgid "URI"
+msgstr "URI"
+
+#: ../src/utils/nautilus-actions-new.c:118
+#: ../src/utils/nautilus-actions-schemas.c:87
+#, c-format
+msgid "Syntax error: %s\n"
+msgstr "文法エラー: %s\n"
+
+#: ../src/utils/nautilus-actions-new.c:124
+#, c-format
+msgid "Error: an action label is mandatory."
+msgstr "エラー: アクションのラベルは必須です"
+
+#: ../src/utils/nautilus-actions-new.c:129
+#, c-format
+msgid "Error: only one output option may be specified."
+msgstr "エラー: 出力のオプションは１つだけ指定できます"
+
+#. i18n: Action <action_label> written to...
+#: ../src/utils/nautilus-actions-new.c:138
+#, c-format
+msgid "Action '%s' succesfully written to GConf configuration.\n"
+msgstr "'%s' というアクションを GConf の設定に書き込みました\n"
+
+#. i18n: Action <action_label> written to <output_filename>...
+#: ../src/utils/nautilus-actions-new.c:145
+#, c-format
+msgid ""
+"Action '%s' succesfully written to %s, and ready to be imported in NACT.\n"
+msgstr ""
+"'%s' というアクションを %s に書き込み Nautilus アクションの設定ツールでイン"
+"ポートする準備が整いました\n"
+
+#: ../src/utils/nautilus-actions-new.c:172
+msgid ""
+"Define a new action.\n"
+"\n"
+"  The created action defaults to be written to stdout.\n"
+"  It can also be written to an output folder, in a file later suitable for "
+"an import in NACT.\n"
+"  Or you may choose to directly write the action into your GConf "
+"configuration."
+msgstr ""
+"Define a new action.\n"
+"\n"
+"  The created action defaults to be written to stdout.\n"
+"  It can also be written to an output folder, in a file later suitable for "
+"an import in NACT.\n"
+"  Or you may choose to directly write the action into your GConf "
+"configuration."
+
+#: ../src/utils/nautilus-actions-new.c:189
+#: ../src/utils/nautilus-actions-schemas.c:147
+msgid ""
+"Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
+"mail to <maintainer@nautilus-actions.org>.\n"
+msgstr ""
+"Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
+"mail to <maintainer@nautilus-actions.org>.\n"
+
+#: ../src/utils/nautilus-actions-new.c:197
+msgid "Output of the program"
+msgstr "プログラムの出力"
+
+#: ../src/utils/nautilus-actions-new.c:197
+msgid "Choose where the program creates the action"
+msgstr "アクションを作成する先を選択する"
+
+#: ../src/utils/nautilus-actions-new.c:290
+#: ../src/utils/nautilus-actions-schemas.c:257
+#, c-format
+msgid "Try %s --help for usage.\n"
+msgstr "%s --help で用法を確認して下さい\n"
+
+#. { "output-gconf"         , 'g', 0, G_OPTION_ARG_NONE    , &output_gconf   , N_("Writes the Nautilus Actions schema in GConf"), NULL },
+#. { "output-filename"      , 'o', 0, G_OPTION_ARG_FILENAME, &output_fname   , N_("The file where to write the GConf schema ('-' for stdout)"), N_("FILENAME") },
+#: ../src/utils/nautilus-actions-schemas.c:55
+msgid "Output the schema on stdout"
+msgstr "標準出力に出力する"
+
+#: ../src/utils/nautilus-actions-schemas.c:130
+msgid "Output the Nautilus Actions GConf schema on stdout."
+msgstr "Nautilus アクションの GConf スキーマを標準出力に出力します"
