@@ -6,14 +6,15 @@
 # Kostas Papadimas <pkst@gnome.org>, 2008.
 # Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
 # keratea <dmtrs32@gmail.com>, 2013.
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
 "=nautilus-actions&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-04-02 17:56+0000\n"
-"PO-Revision-Date: 2013-05-17 08:03+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"PO-Revision-Date: 2015-05-07 01:58+0300\n"
+"Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
@@ -2315,7 +2316,7 @@ msgstr "Εμφάνιση επιλογών διαχείρισης συνεδρί�
 #: ../src/nact/nact-application.c:57 ../src/nact/nact.desktop.in.h:1
 #| msgid "Nautilus Actions Configuration"
 msgid "Nautilus-Actions Configuration Tool"
-msgstr "Εργαλείο ρυθμίσεων ενεργειών Ναυτίλου"
+msgstr "Ναυτίλος-Ενέργειες εργαλείο ρυθμίσεων"
 
 #: ../src/nact/nact-application.c:58
 msgid "A user interface to edit your own contextual actions"
